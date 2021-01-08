@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>netflix</title>
-    <link rel="stylesheet" href="dist/css/font-awesome5.11.2.min.css">
+    <link rel="stylesheet" href="dist/css/all.min.css">
     <link rel="stylesheet" href="dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="dist/css/vendor.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,11 +16,46 @@
 
 <body>
 
-    
+         <section id="banner">
 
-            <h1>hello in page index</h1>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Netflix<span class="text-primary">ify</span></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <form action="" class=" col-12 col-md-4 p-0">
+                            <div class="input-group">
+                                <input type="search" class="form-control bg-transparent border-0" style="margin-top: 3%;" placeholder="search for favoriet movies" aria-label="search for favoriet movies" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                  <span class="input-group-text bg-transparent text-white border-0" style="margin-top: 30%;" id="basic-addon2"><i class="fas fa-search"></i></span>
+                                </div>
+                            </div>       
+                        </form>
+                        <ul class="navbar-nav ml-auto">
+                            <a href="login.html" class="btn btn-primary mb-2 mb-md-0 mr-0 mr-md-2">Login</a> 
+                            <a href="register.html" class="btn btn-outline-light">Register</a> 
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="movies">
+                <div class="movie">
+                    <div class="movie__bg">
+
+                    </div>
+                </div>
+            </div>
 
 
+
+
+         </section>
+
+    <script src="dist/js/all.min.js"></script>
     <script src="dist/js/jquery-3.4.0.min.js"></script>
     <script src="dist/js/popper.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
