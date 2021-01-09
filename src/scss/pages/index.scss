@@ -35,3 +35,45 @@
 
     }
 }
+
+.lesting{
+    .movie{
+
+        background: black;
+        position: relative;
+        transition: all 0.2s ease-in;
+        &:hover img{
+            opacity: 0.5;
+        }
+        &:hover .movie__details{
+            opacity: 1;
+        }
+        img{
+            transition: all 0.2s ease-in;
+        }
+
+        .movie__details{
+            position: absolute;
+            left: 10px;
+            bottom: 1rem;
+            right: 10px;
+            opacity: 0;
+            transition: all 0.3s ease-in;
+        }
+
+        .movie__rating{
+            .fa-star{
+                font-size: 1.2rem;
+            }
+        }
+        .movie__fav-button{
+            font-size:1.6rem;
+            &:hover {
+                font-weight: 900;
+            }
+        }
+        .movie__name{
+            font-size: 1.2rem;
+        }
+    }
+}
