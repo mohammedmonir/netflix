@@ -3,8 +3,10 @@
 
 @import 'pages/index';
 @import 'pages/login';
+@import 'pages/show';
 
 body{
+    overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
     background: black;
 
